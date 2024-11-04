@@ -1,4 +1,5 @@
 name: Solar System Workflow
+MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
 
 on: 
   workflow_dispatch:
